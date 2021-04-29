@@ -94,4 +94,7 @@
 
   </xacro:macro>
 
+
+ <xacro:include filename="$(find tiago_description)/urdf/end_effector/gzplugin_grasp_fix.urdf.xacro"/>
+ <xacro:gzplugin_grasp_fix/>
 </robot>
