@@ -2,6 +2,21 @@
 Changelog for package tiago_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.58 (2021-04-09)
+-------------------
+
+2.0.57 (2021-03-19)
+-------------------
+* Merge branch 'custom-end-effector-dual' into 'erbium-devel'
+  Custom end effector dual
+  See merge request robots/tiago_robot!123
+* fix: logic loading custom ee urdf from tiago_robot
+* fix: load custom urdfs
+* fix: treat string as binary always entering to dual if
+* fix: duplicating right ee causing error link
+* fix: xacro negation
+* Contributors: daniellopez, victor
+
 2.0.56 (2021-03-01)
 -------------------
 * Merge branch 'fix_left_arm_tiago_dual_com' into 'erbium-devel'
